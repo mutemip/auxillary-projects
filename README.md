@@ -3,8 +3,8 @@
 This project automates the process of onboarding several users in a server and adding them to a group "developers"
 
 To set up the project follow these steps:
-- mkdir shell && cd shell
-- vi names.csv
+  mkdir shell && cd shell
+vi names.csv
 
 Then enter the name of users to be added to the server
 

@@ -9,15 +9,15 @@ To set up the project follow these steps:
 Then enter the name of users to be added to the server
 
 create a group "developers"
-  sudo groupadd developers
+  - sudo groupadd developers
   
 create these files:
-  touch id_rsa id_rsa.pub onboading-users.sh
+  - touch id_rsa id_rsa.pub onboading-users.sh
   
 enter the keys in their respective files
 
 Make sure the script is executable by running:
-  sudo chmod +x onboarding-users.sh
+  - sudo chmod +x onboarding-users.sh
   
   Changes From:
   
@@ -28,8 +28,8 @@ Make sure the script is executable by running:
 ![after](https://user-images.githubusercontent.com/64135078/196561092-51f7c486-12cb-4093-94b8-dcac4e876ace.png)
 
 Then use 
-  sudo su - To switch to root user
+  - sudo su - To switch to root user
  
  and execute the script using:
-  ./onboarding-users.sh
+ - ./onboarding-users.sh
  
